@@ -1,13 +1,18 @@
 (function () {
     "use strict";
     const _ = require("lodash");
+    const config = require("./config.json");
     const Discord = require("discord.js");
     const formals = require("./formal.json");
 
     const client = new Discord.Client(),
         prefix = "!formal";
 
-    /**
+    const spellList = _.map(formals, function (o) {
+        return "_" + _.map(o.name.split(" "), _.capitalize).join(" ") + "_";
+    }).sort().join(" - ");
+
+        /**
      * formatComponents
      * @param components
      * @returns {string}
@@ -48,13 +53,31 @@
         response = `\n__**${spellDetails.name}**__`;
         response = `${response}\n**School**: ${formatSchools(spellDetails.schools)}`;
         response = `${response}\n**Level**: ${spellDetails.level}`;
-        response = `${response}\n**Cost**: _${formatComponents(spellDetails.components)}_`;
+        response = `${response}\n**Components**: _${formatComponents(spellDetails.components)}_`;
 
         if (spellDetails.notes) {
             response = `${response}\n${spellDetails.notes}`;
         }
 
+        if (!spellDetails.cost) {
+            spellDetails.cost = getGoldCost(spellDetails.components);
+        }
+
+        response = `${response}\n*Est. Cost: ${spellDetails.cost} gold.*`;
+
         return response;
+    };
+
+
+    let getGoldCost = function (components) {
+        return _.reduce(components, function (cost, num, type) {
+            if (type.toUpperCase() === "P") {
+                cost += 3 * num;
+            } else {
+                cost += 2 * num;
+            }
+            return cost;
+        }, 0);
     };
 
 
@@ -75,7 +98,7 @@
             console.log(`Fetching ${args}`);
 
             if (args === "list") {
-                msg.reply(_.map(formals, "name").join(", "));
+                msg.reply(spellList);
                 return;
             }
 
@@ -86,7 +109,7 @@
             if (results.length > 0) {
                 msg.reply(formatResponse(results[0]));
             } else {
-                msg.reply(`Could find formal named \`${args}\`.`);
+                msg.reply(`Could NOT find formal named \`${args}\`.`);
             }
         } catch (e) {
             console.log("**ERROR OCCURED IN MESSAGE HANDLER!**");
@@ -102,6 +125,6 @@
 
     client.on("message", handleMessage);
 
-    client.login("NjA1ODM5OTAzODM3NzgyMDMy.XUCX5Q.L6lF7lQe2FcSYEz3INtQ6bNtfbo");
+    client.login(config.token);
 
 })();
