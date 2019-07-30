@@ -9,8 +9,8 @@
         prefix = "!formal";
 
     const spellList = _.map(formals, function (o) {
-        return "_" + _.map(o.name.split(" "), _.capitalize).join(" ") + "_";
-    }).sort().join(" - ");
+        return "_" + _.map(o.name.split(" "), _.capitalize).join(" ").replace(",", ":") + "_";
+    }).sort().join(", ");
 
         /**
      * formatComponents
