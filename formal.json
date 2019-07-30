@@ -1,0 +1,427 @@
+[
+    {
+        "name": "Create Mark",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1
+        }
+    },
+    {
+        "name": "Destroy Mark",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1
+        }
+    },
+    {
+        "name": "Enchant",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "c": 1,
+            "e": 1
+        },
+        "notes": "+P equal to half the level of the spell rounded up"
+    },
+    {
+        "name": "Glyph of Protection",
+        "level": 1,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1,
+            "e": 1
+        },
+        "notes": "+ designated by the type of glyph"
+    },
+    {
+        "name": "Investiture",
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1,
+            "s": 1,
+            "t": 1
+        }
+    },
+    {
+        "name": "Divestiture",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1,
+            "s": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Planar Asylum",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1,
+            "e": 1
+        },
+        "notes": "+ 1 P per additional person in the asylum"
+    },
+    {
+        "name": "Spirit Farewell",
+        "level": 1,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "P": 1,
+            "c": 1,
+            "s": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Summon Basic Extra-Planar Creature",
+        "level": 1,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 1,
+            "c": 1,
+            "e": 1,
+            "s": 1
+        }
+    },
+    {
+        "name": "Cloak, Minor",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 2,
+            "c": 1,
+            "d": 1,
+            "e": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Create Minor Golem",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 2,
+            "c": 2,
+            "e": 2,
+            "s": 2,
+            "v": 2
+        }
+    },
+    {
+        "name": "Create Minor Undead",
+        "level": 2,
+        "schools": [
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 2,
+            "c": 2,
+            "e": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Create Limited Formal Magic Scroll",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 2,
+            "c": 1,
+            "e": 1
+        },
+        "notes": "+ componenets equivalent to the base casting cost of the scroll being copied not including power and not required to include rare components"
+    },
+    {
+        "name": "Delve History",
+        "level": 2,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 2,
+            "c": 1,
+            "s": 1,
+            "t": 1
+        }
+    },
+    {
+        "name": "Destroy Magic, Lesser",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 2,
+            "d": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Magic Aura",
+        "level": 2,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 2,
+            "c": 1,
+            "d": 1,
+            "e": 1
+        }
+    },
+    {
+        "name": "Render Indestructible",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 2,
+            "c": 2,
+            "e": 2,
+            "t": 1
+        }
+    },
+    {
+        "name": "Whispering Wind",
+        "level": 2,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 2,
+            "e": 1,
+            "s": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Arcane Armor",
+        "level": 3,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 3,
+            "c": 1,
+            "e": 1,
+            "s": 1
+        }
+    },
+    {
+        "name": "Bane, Minor",
+        "level": 3,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 3,
+            "c": 2,
+            "d": 1,
+            "e": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Create High Horoscope",
+        "level": 3,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 3,
+            "c": 1,
+            "e": 1,
+            "s": 1,
+            "t": 1
+        }
+    },
+    {
+        "name": "Create Stake of Woe",
+        "level": 3,
+        "schools": [
+            "earth"
+        ],
+        "componenets": {
+            "p": 3,
+            "c": 1,
+            "d": 1,
+            "s": 1,
+            "v": 1
+        }
+    },
+    {
+        "name": "Dreamvision",
+        "level": 3,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 3,
+            "s": 2,
+            "t": 2
+        }
+    },
+    {
+        "name": "Elemental Aura",
+        "level": 3,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 3,
+            "c": 2,
+            "e": 3
+        }
+    },
+    {
+        "name": "Extend Enchantment",
+        "level": 3,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 3,
+            "t": 2
+        }
+    },
+    {
+        "name": "mend golem",
+        "level": 3,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 3,
+            "C": 2,
+            "e": 2
+        }
+    },
+    {
+        "name": "Summon Lesser Extra-Planar Creature",
+        "level": 3,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 3,
+            "c": 2,
+            "e": 2,
+            "s": 1
+        }
+    },
+    {
+        "name": "Create Base Golem",
+        "level": 4,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 4,
+            "c": 3,
+            "e": 3,
+            "s": 2,
+            "v": 2
+        }
+    },
+    {
+        "name": "Create Base Undead",
+        "level": 4,
+        "schools": [
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 4,
+            "c": 3,
+            "e": 2,
+            "v": 1
+        }
+    },
+    {
+        "name": "Create Unlimited Formal Magic Scroll",
+        "level": 4,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 4,
+            "c": 2,
+            "e": 2,
+            "t": 2
+        },
+        "notes": "+ components equivalent to the base casting cost of the scroll being copied not including the power and not required to include rare components"
+    },
+    {
+        "name": "Delimit",
+        "level": 4,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 4,
+            "c": 1,
+            "s": 3
+        }
+    }
+]
