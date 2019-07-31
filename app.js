@@ -103,7 +103,8 @@
             }
 
             results = _.filter(formals, function (o) {
-                return o.name.toLowerCase() === args.toLowerCase();
+                return o.name.toLowerCase().indexOf(args.toLowerCase()) !== -1;
+                //return o.name.toLowerCase() === args.toLowerCase();
             });
 
             if (results.length > 0) {
@@ -112,7 +113,7 @@
                 msg.reply(`Could NOT find formal named \`${args}\`.`);
             }
         } catch (e) {
-            console.log("**ERROR OCCURED IN MESSAGE HANDLER!**");
+            console.log("**ERROR OCCURRED IN MESSAGE HANDLER!**");
             console.log(e);
             msg.reply(`CALL AN AMBULANCE! I REQUIRE MEDICAL ATTENTION!\n${JSON.stringify(e)}`);
         }
