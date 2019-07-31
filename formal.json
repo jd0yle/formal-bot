@@ -9,7 +9,8 @@
         "components": {
             "p": 1,
             "c": 1
-        }
+        },
+        "description": "This formal magic will create or destroy an indelible Mark of the appropriate school upon a spirit or an item. The creation of a Mark can take one of three forms: Spirit Mark will always show itself on the surface of the spirit’s body. Item Mark will always show itself on the surface of the item enchanted. Mark of Ownership will always show itself on the surface of the body whose spirit possesses the item (it appears after one hour of possession, and disappears one hour after the item is no longer in possession). The Mark can be up to two colors chosen by the caster and a size between one and ten square inches at the choice of the caster, at any location upon the target chosen by the caster. A Mark may not be drawn over an existing Mark. Upon completion of Create Mark, the caster draws the Mark. Upon completion of Destroy Mark, one (non-hidden) mark of the appropriate school present on the target, if there are any, disappears immediately. If more than one mark is present on an item, the caster decides which one is destroyed. If more than one mark is present on a spirit, the target decides which one is destroyed. Note this is one scroll capable of being used as both Create Mark and Destroy Mark. Any deliberate attempts to violate the spirit of the Mark of Ownership effect by passing the item around quickly will be dealt with by the local chapter disciplinary committee."
     },
     {
         "name": "Destroy Mark",
@@ -423,5 +424,489 @@
             "c": 1,
             "s": 3
         }
+    },
+    {
+        "name": "Spell Store",
+        "level": 4,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 4,
+            "c": 2,
+            "e": 1
+        }
+    },
+    {
+        "name": "Channel Spell",
+        "level": 5,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "e": 2,
+            "s": 2
+        },
+        "notes": "+ P equivalent to the level of the spell being channeled"
+    },
+    {
+        "name": "Cloak",
+        "level": 5,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "d": 2,
+            "e": 1,
+            "v": 2
+        }
+    },
+    {
+        "name": "Contact Ancient Dead",
+        "level": 5,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 5,
+            "c": 1,
+            "s": 2,
+            "t": 1,
+            "v": 2
+        }
+    },
+    {
+        "name": "Damage Aura",
+        "level": 5,
+        "schools": [
+            "celestial"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "d": 2,
+            "e": 2
+        }
+    },
+    {
+        "name": "Extend Formal Magic",
+        "level": 5,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 5,
+            "t": 4
+        }
+    },
+    {
+        "name": "Interplanar Conduit",
+        "level": 5,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "s": 3,
+            "v": 1
+        },
+        "notes": "+ 1 P for each additional person in the communication"
+    },
+    {
+        "name": "Protection Aura",
+        "level": 5,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "d": 1,
+            "e": 1,
+            "v": 2
+        }
+    },
+    {
+        "name": "Spirit Forge",
+        "level": 5,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 5,
+            "c": 1,
+            "s": 2,
+            "v": 1
+        },
+        "notes": "Unrestricted components only"
+    },
+    {
+        "name": "Summon Major Extra-Planar Creature",
+        "level": 5,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 5,
+            "c": 2,
+            "e": 2,
+            "s": 2
+        }
+    },
+    {
+        "name": "Bane",
+        "level": 6,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 6,
+            "c": 2,
+            "d": 2,
+            "e": 1,
+            "v": 3
+        }
+    },
+    {
+        "name": "Create Major Golem",
+        "level": 6,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 6,
+            "c": 4,
+            "e": 4,
+            "s": 3,
+            "v": 3
+        }
+    },
+    {
+        "name": "Create Major Undead",
+        "level": 6,
+        "schools": [
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 6,
+            "c": 4,
+            "e": 2,
+            "v": 2
+        }
+    },
+    {
+        "name": "Create Protective Circle of Power",
+        "level": 6,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 6,
+            "c": 3,
+            "e": 3,
+            "s": 3,
+            "t": 4
+        }
+    },
+    {
+        "name": "Expanded Enchantment",
+        "level": 6,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 6,
+            "c": 3,
+            "e": 3
+        },
+        "notes": "+ P equivalent to level of the spell being expanded"
+    },
+    {
+        "name": "Spirit Link",
+        "level": 6,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 6,
+            "c": 3,
+            "e": 3
+        }
+    },
+    {
+        "name": "Change Race",
+        "level": 7,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 7,
+            "c": 1,
+            "e": 2,
+            "s": 3,
+            "v": 1
+        },
+        "notes": "All unrestricted"
+    },
+    {
+        "name": "Create Greater Golem",
+        "level": 7,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 7,
+            "c": 5,
+            "e": 5,
+            "s": 3,
+            "v": 3
+        }
+    },
+    {
+        "name": "Summon Greater Extra-Planar Creature",
+        "level": 7,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 7,
+            "c": 3,
+            "e": 3,
+            "s": 3
+        }
+    },
+    {
+        "name": "Transform to Greater Creature",
+        "level": 7,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 7,
+            "c": 3,
+            "e": 4,
+            "s": 4,
+            "t": 1
+        },
+        "notes": "unrestricted only"
+    },
+    {
+        "name": "Vengeance",
+        "level": 7,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 7,
+            "c": 1,
+            "d": 2,
+            "e": 3,
+            "s": 2
+        },
+        "notes": "unrestricted only"
+    },
+    {
+        "name": "Destroy Magic, Greater",
+        "level": 8,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 8,
+            "d": 4,
+            "v": 4
+        }
+    },
+    {
+        "name": "Interplanar Travel",
+        "level": 8,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 8,
+            "s": 4,
+            "v": 4
+        },
+        "notes": "+ P equivalent to the # of willing people travelling"
+    },
+    {
+        "name": "Obliterate",
+        "level": 8,
+        "schools": [
+            "earth"
+        ],
+        "components": {
+            "p": 8,
+            "d": 4,
+            "s": 4,
+            "v": 4
+        },
+        "notes": "all unrestricted"
+    },
+    {
+        "name": "Spirit Walk",
+        "level": 8,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 8,
+            "c": 1,
+            "s": 2,
+            "v": 2
+        },
+        "notes": "+ P equivalent to the total number of people spirit walking"
+    },
+    {
+        "name": "Transform to High Creature",
+        "level": 8,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 8,
+            "c": 4,
+            "e": 5,
+            "s": 5,
+            "t": 3
+        },
+        "notes": "All unrestricted"
+    },
+    {
+        "name": "Create Master Golem",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 9,
+            "c": 8,
+            "e": 7,
+            "s": 3,
+            "v": 3
+        }
+    },
+    {
+        "name": "Create Extended Circle of Power",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 9,
+            "c": 4,
+            "e": 4,
+            "s": 4,
+            "t": 4
+        }
+    },
+    {
+        "name": "Greater Extension",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 9,
+            "c": 2,
+            "t": 4
+        },
+        "notes": "At least one P component must be a P2 or P4"
+    },
+    {
+        "name": "Planar Gate",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 9,
+            "c": 4,
+            "e": 2,
+            "s": 2,
+            "v": 4
+        }
+    },
+    {
+        "name": "Spirit Lock",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "earth"
+        ],
+        "components": {
+            "p": 9,
+            "c": 4,
+            "e": 4,
+            "s": 6
+        }
+    },
+    {
+        "name": "Summon High Extra-Planar Creature",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 9,
+            "c": 4,
+            "e": 4,
+            "s": 4
+        }
+    },
+    {
+        "name": "Transform to Master Creature",
+        "level": 9,
+        "schools": [
+            "celestial",
+            "earth",
+            "scroll-specific"
+        ],
+        "components": {
+            "p": 9,
+            "c": 8,
+            "e": 10,
+            "s": 10,
+            "t": 5
+        },
+        "notes": "all unrestricted"
     }
 ]
+
