@@ -3,7 +3,7 @@
     const _ = require("lodash");
     const config = require("./config.json");
     const Discord = require("discord.js");
-    const formals = require("./formal.json");
+    let formals = require("./formal.json");
 
     const client = new Discord.Client(),
         prefix = "!formal";
@@ -11,6 +11,8 @@
     const spellList = _.map(formals, function (o) {
         return "_" + _.map(o.name.split(" "), _.capitalize).join(" ").replace(",", ":") + "_";
     }).sort().join(", ");
+
+    formals = _.sortBy(formals, "name");
 
         /**
      * formatComponents
