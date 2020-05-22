@@ -476,7 +476,7 @@
         "schools": [
             "celestial",
             "earth",
-            "nature"
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -928,7 +928,7 @@
         "schools": [
             "celestial",
             "earth",
-            "nature"
+            "nature",
             "scroll-specific"
         ],
         "components": {
