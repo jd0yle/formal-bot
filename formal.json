@@ -4,7 +4,8 @@
         "level": 1,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 1,
@@ -17,7 +18,8 @@
         "level": 1,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 1,
@@ -29,7 +31,8 @@
         "level": 1,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "c": 1,
@@ -41,7 +44,8 @@
         "name": "Glyph of Protection",
         "level": 1,
         "schools": [
-            "celestial"
+            "celestial",
+            "nature"
         ],
         "components": {
             "p": 1,
@@ -54,7 +58,8 @@
         "name": "Investiture",
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 1,
@@ -68,7 +73,8 @@
         "level": 1,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 1,
@@ -126,6 +132,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -171,6 +178,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -198,7 +206,8 @@
         "level": 2,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 2,
@@ -224,7 +233,8 @@
         "level": 2,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 2,
@@ -238,7 +248,8 @@
         "level": 2,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 2,
@@ -267,6 +278,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -334,7 +346,8 @@
         "level": 3,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 3,
@@ -402,7 +415,8 @@
         "level": 4,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 4,
@@ -417,7 +431,8 @@
         "level": 4,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 4,
@@ -430,7 +445,8 @@
         "level": 4,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 4,
@@ -443,7 +459,8 @@
         "level": 5,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 5,
@@ -459,6 +476,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature"
             "scroll-specific"
         ],
         "components": {
@@ -501,7 +519,8 @@
         "level": 5,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 5,
@@ -572,6 +591,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -616,7 +636,8 @@
         "level": 6,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 6,
@@ -631,7 +652,8 @@
         "level": 6,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 6,
@@ -645,7 +667,8 @@
         "level": 6,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 6,
@@ -704,6 +727,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature",
             "scroll-specific"
         ],
         "components": {
@@ -720,7 +744,8 @@
         "level": 7,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 7,
@@ -736,7 +761,8 @@
         "level": 8,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 8,
@@ -777,7 +803,8 @@
         "level": 8,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 8,
@@ -792,7 +819,8 @@
         "level": 8,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 8,
@@ -823,7 +851,8 @@
         "level": 9,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 9,
@@ -838,7 +867,8 @@
         "level": 9,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 9,
@@ -867,7 +897,8 @@
         "level": 9,
         "schools": [
             "celestial",
-            "earth"
+            "earth",
+            "nature"
         ],
         "components": {
             "p": 9,
@@ -897,6 +928,7 @@
         "schools": [
             "celestial",
             "earth",
+            "nature"
             "scroll-specific"
         ],
         "components": {
