@@ -61,6 +61,12 @@
             response = `${response}\n${spellDetails.notes}`;
         }
 
+	if (spellDetails.description) {
+            response = `${response}\n**Description**: ${spellDetails.description}`;
+
+	}
+	
+
         if (!spellDetails.cost) {
             spellDetails.cost = getGoldCost(spellDetails.components);
         }
